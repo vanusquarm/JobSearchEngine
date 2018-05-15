@@ -1,12 +1,9 @@
 package com.example.julian.jobsearch;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.EditText;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
@@ -17,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendLoginChoice(View view){
-        Intent intent1 = new Intent(this, LoginActivity.class);
+        Intent intent1 = new Intent(this, com.androidtutorialshub.loginregister.activities.LoginActivity.class);
         startActivity(intent1);
     }
 
