@@ -1,46 +1,52 @@
-package com.androidtutorialshub.loginregister.model;
+package com.julian.jobsearch.data.model;
 
 /**
- * Created by Quarm on 5/12/2018.
+ *
  */
 
 public class User {
-
-    private int id;
-    private String name;
+    private String uuid;
     private String email;
+    private String firstName;
+    private String lastName;
+    private String username;
     private String password;
+    private String telephone;
 
-    public int getId() {
-        return id;
+    public User(String email, String firstName, String lastName, String username, String password, String telephone) {
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.username = username;
+        this.password = password;
+        this.telephone = telephone;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public String getUuid() {
+        return uuid;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getUsername() {
+        return username;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public String getTelephone() {
+        return telephone;
     }
 }
-
