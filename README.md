@@ -1,2 +1,2 @@
-# alarmSystem
-answer a question before the alarm goes off
+# Mimicking Indeed Job search App
+- Provides the foundational codebase to use for every searchengine app
