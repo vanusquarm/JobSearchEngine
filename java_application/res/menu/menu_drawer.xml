@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_go_home"
+            android:checked="true"
+            android:icon="@drawable/ic_job_list"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/menu_go_latest"
+            android:checked="false"
+            android:icon="@drawable/ic_categories"
+            android:title="@string/latest" />
+
+        <item
+            android:id="@+id/menu_go_category"
+            android:checked="false"
+            android:icon="@drawable/ic_latest"
+            android:title="@string/menu_category" />
+
+        <item
+            android:id="@+id/menu_go_saved"
+            android:checked="false"
+            android:icon="@drawable/ic_saved_job"
+            android:title="@string/menu_save_job" />
+
+        <item
+            android:id="@+id/menu_go_applied"
+            android:checked="false"
+            android:icon="@drawable/ic_applied_job"
+            android:title="@string/menu_applied_job" />
+
+        <item
+            android:id="@+id/menu_go_profile"
+            android:checkable="false"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/menu_go_setting"
+            android:checked="false"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/menu_setting" />
+
+
+        <item
+            android:id="@+id/menu_go_logout"
+            android:checkable="false"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+
+        <item
+            android:id="@+id/menu_go_login"
+            android:checkable="false"
+            android:icon="@drawable/ic_login"
+            android:title="@string/menu_login" />
+
+    </group>
+</menu>
